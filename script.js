@@ -21,7 +21,9 @@ let drawCanvas = () => {
 }
 
 let generateScales = ()=>{
-
+    heightScale = d3.scaleLinear()
+                    .domain(0,d3.max(values,item=>item[1]))
+                    .range(0,h-(2*padding))
 }
 
 let drawBars = ()=>{
