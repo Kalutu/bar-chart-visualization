@@ -32,7 +32,7 @@ let generateScales = ()=>{
     let datesArray = values.map(item=>new Date(item[0]));
 
     xAxisScale = d3.scaleTime()
-                    .domain([d3.min(datesArray,d3.max(datesArray))])
+                    .domain([d3.min(datesArray),d3.max(datesArray)])
                     .range([padding,width-padding]);
 
     yAxisScale = d3.scaleLinear()
@@ -45,12 +45,11 @@ let drawBars = ()=>{
 }
 
 let generateAxes = ()=>{
-
     let xAxis = d3.axisBottom(xAxisScale)
-
     svg.append("g")
         .call(xAxis)
         .attr("id","x-axis")
+        .attr("transform","translate(0,"+(height-padding)+")")
 }
 
 req.open('GET',url,true);
