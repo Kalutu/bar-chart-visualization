@@ -42,3 +42,12 @@ The code performs the following steps:
 6. It uses XMLHttpRequest to fetch the JSON data from the specified URL.
 
 7. It parses the JSON data, extracts the values, and calls the necessary functions to draw the chart.
+
+## Contributing
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+## Credits
+The code is based on a tutorial or example from the freeCodeCamp project. The original code can be found [here](https://github.com/freeCodeCamp/ProjectReferenceData).
+
+This README file is created as part of a project in the [FreeCodeCamp Frontend Certification](https://www.freecodecamp.org/learn/front-end-libraries/) course. Learn more about FreeCodeCamp and their educational programs on their official website: [https://www.freecodecamp.org/](https://www.freecodecamp.org/)
+
