@@ -46,6 +46,11 @@ let drawBars = ()=>{
 
 let generateAxes = ()=>{
 
+    let xAxis = d3.axisBottom(xAxisScale)
+
+    svg.append("g")
+        .call(xAxis)
+        .attr("id","x-axis")
 }
 
 req.open('GET',url,true);
