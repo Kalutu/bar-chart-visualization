@@ -48,8 +48,11 @@ let drawBars = ()=>{
         .append("rect")
         .attr("class","bar")
         .attr("width",(width-(2*padding))/values.length)
-
-
+        .attr("data-date",item=>item[0])
+        .attr("data-gdp",item=>item[1])
+        .attr("height",item=>heightScale(item[1]))
+        .attr("x",(item,index)=> xScale(index))
+        .attr("y",item=>(height-padding)-heightScale(item[1]))
 }
 
 let generateAxes = ()=>{
