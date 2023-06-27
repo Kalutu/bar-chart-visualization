@@ -60,6 +60,17 @@ let drawBars = ()=>{
         .attr("height",item=>heightScale(item[1]))
         .attr("x",(item,index)=> xScale(index))
         .attr("y",item=>(height-padding)-heightScale(item[1]))
+        .on("mouseover",item=>{
+            tooltip.transition()
+                    .style("visibility","visible");
+            tooltip.text(item[0])
+
+            document.querySelector("#tooltip").setAttribute("data-date",item[0])
+        })
+        .on("mouseout",item=>{
+            tooltip.transition()
+                    .style("visibility","hidden");
+        })
 }
 
 let generateAxes = ()=>{
