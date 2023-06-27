@@ -1,6 +1,9 @@
 # Bar Chart
 This repository contains code for creating a bar chart using D3.js and XMLHttpRequest. The code fetches data from a JSON file and generates a bar chart based on that data.
 
+## Preview
+![USA GDP Bar Chart](img/bar-chart.jpg)
+
 ## Prerequisites
 To run the code in this repository, you need to have the following:
 - A web browser that supports D3.js and XMLHttpRequest.
