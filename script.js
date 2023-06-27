@@ -42,14 +42,30 @@ let generateScales = ()=>{
 
 let drawBars = ()=>{
 
+    svg.selectAll("rect")
+        .data(values)
+        .enter()
+        .append("rect")
+        .attr("class","bar")
+        .attr("width",(width-(2*padding))/values.length)
+
+
 }
 
 let generateAxes = ()=>{
-    let xAxis = d3.axisBottom(xAxisScale)
+    let xAxis = d3.axisBottom(xAxisScale);
+    let yAxis = d3.axisLeft(yAxisScale)
     svg.append("g")
         .call(xAxis)
         .attr("id","x-axis")
-        .attr("transform","translate(0,"+(height-padding)+")")
+        .attr("transform","translate(0,"+(height-padding)+")");
+
+    svg.append("g")
+        .call(yAxis)
+        .attr("id","y-axis")
+        .attr("transform","translate("+(padding)+",0)");
+
+    
 }
 
 req.open('GET',url,true);
