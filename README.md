@@ -52,5 +52,5 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 ## Credits
 The code is based on a tutorial or example from the freeCodeCamp project. The original code can be found [here](https://github.com/freeCodeCamp/ProjectReferenceData).
 
-This README file is created as part of a project in the [FreeCodeCamp Frontend Certification](https://www.freecodecamp.org/learn/front-end-libraries/) course. Learn more about FreeCodeCamp and their educational programs on their official website: [https://www.freecodecamp.org/](https://www.freecodecamp.org/)
+This README file is created as part of a project in the [FreeCodeCamp Frontend Certification](https://www.freecodecamp.org/learn/front-end-libraries/) course. Learn more about FreeCodeCamp and their educational programs on their official website: [https://www.freecodecamp.org/](https://www.freecodecamp.org/).
 
