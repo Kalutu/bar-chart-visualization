@@ -50,7 +50,6 @@ The code performs the following steps:
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
 ## Credits
-The code is based on a challenge from the freeCodeCamp Data Visualization Certification.
+This Bar Chart project is part of the [FreeCodeCamp Data Visualization Certification](https://www.freecodecamp.org/learn/data-visualization/) course. It was completed as one of the required projects in the curriculum.
 
-This README file is created as part of a project in the [FreeCodeCamp Data Visualization Certification](https://www.freecodecamp.org/learn/front-end-libraries/) course. Learn more about FreeCodeCamp and their educational programs on their official website: [https://www.freecodecamp.org/](https://www.freecodecamp.org/).
-
+Special thanks to freeCodeCamp for providing educational resources and coding challenges to help developers learn and improve their skills.
